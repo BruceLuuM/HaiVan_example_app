@@ -9,6 +9,20 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## REGISTER
+![image](https://user-images.githubusercontent.com/87639639/192040590-f779e827-dd13-4f36-95ce-dae4ee9cb5ca.png)
+## LOGIN
+![image](https://user-images.githubusercontent.com/87639639/192040524-4029b76f-9185-4303-85e1-1bdfdee52291.png)
+## HOME
+![image](https://user-images.githubusercontent.com/87639639/192040881-e2c2d0fe-6ee8-40b4-88ab-1538fbfe7ae6.png)
+## VIEW
+![image](https://user-images.githubusercontent.com/87639639/192040926-17d50297-6567-4295-b95a-01b3aa34d1e1.png)
+## UPDATE
+![image](https://user-images.githubusercontent.com/87639639/192040981-1104fd0a-176a-4987-8065-b13e7c39d2cd.png)
+## DELETE
+![image](https://user-images.githubusercontent.com/87639639/192041030-e2f69fea-afcc-4e18-844a-ae4fd0fd2405.png)
+
+
 ## Example web using php laravel reacjs
 
 Practice php laravel reacjs
