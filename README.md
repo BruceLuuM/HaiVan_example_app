@@ -13,7 +13,7 @@
 
 Practice php laravel reacjs
 
-Reference: [laravel, react step by step 2022] (https://www.youtube.com/watch?v=svziC8BblM0&t=187s)
+Reference: [laravel, react step by step 2022](https://www.youtube.com/watch?v=svziC8BblM0&t=187s).
 
 ## About Laravel
 
