@@ -2,14 +2,15 @@ import React, { Component } from "react";
 import axios from "axios";
 import ViewModal from "./Modals/ViewModal";
 import UpdateModal from "./Modals/UpdateModal";
+import DeleteModal from "./Modals/DeleteModal";
 
 class TableActionButton extends Component {
     constructor(props) {
         super(props);
 
         this.state = {
-            currentEmployeeeName: null,
-            currentEmployeeeSalary: null,
+            currentEmployeeName: null,
+            currentEmployeeSalary: null,
         };
     }
 
@@ -21,8 +22,8 @@ class TableActionButton extends Component {
             })
             .then((response) => {
                 this.setState({
-                    currentEmployeeeName: response.data.employee_name,
-                    currentEmployeeeSalary: response.data.salary,
+                    currentEmployeeName: response.data.employee_name,
+                    currentEmployeeSalary: response.data.salary,
                 });
 
                 console.log(response.data);
@@ -79,6 +80,10 @@ class TableActionButton extends Component {
                 >
                     Delele
                 </button>
+                <DeleteModal
+                    modalId={this.props.eachRowId}
+                    employeeData={this.state}
+                />
             </div>
         );
     }

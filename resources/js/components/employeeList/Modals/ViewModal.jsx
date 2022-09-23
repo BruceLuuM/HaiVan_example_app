@@ -30,12 +30,12 @@ class ViewModal extends Component {
                         <div className="modal-body">
                             Name:{" "}
                             <strong>
-                                {this.props.employeeData.currentEmployeeeName}
+                                {this.props.employeeData.currentEmployeeName}
                             </strong>
                             <hr />
                             Salary:{" "}
                             <strong>
-                                {this.props.employeeData.currentEmployeeeSalary}
+                                {this.props.employeeData.currentEmployeeSalary}
                             </strong>
                         </div>
                     </div>

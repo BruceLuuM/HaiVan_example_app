@@ -1,6 +1,10 @@
 import React, { Component } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
+import axios from "axios";
 import TableRow from "./TableRow";
+import CreateModal from "./Modals/CreateModal";
 
 class Table extends Component {
     constructor(props) {
@@ -30,6 +34,8 @@ class Table extends Component {
     render() {
         return (
             <div className="container">
+                <ToastContainer />
+                <CreateModal />
                 <div className="row justify-content-center">
                     <div className="col-md-8">
                         <div className="card">
@@ -46,7 +52,7 @@ class Table extends Component {
                                             Salary
                                         </th>
                                         <th scope="col" width="100px">
-                                            Handle
+                                            Action
                                         </th>
                                     </tr>
                                 </thead>
